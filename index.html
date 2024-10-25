@@ -1,8 +1,106 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DOCUMENT</title>
+
+<title>Location de Vacances - L'auberge de Popo</title>
+
+<link rel="stylesheet" href="style.css">
 </head>
+
+<body>
+  <header>
+     <h1> L'auberge de Popo</h1>
+
+     <nav>
+       <ul>
+         <li><a href="#bienvenue">Bienvenue chez nous</a></li>
+         <li><a href="#chambres">Nos chambres</a></li>
+         <li><a href="#services">Nos services</a></li>
+         <li><a href="#avis">Avis</a></li>
+         <li><a href="#contact">Nous contacter</a></li>
+       </ul>
+     </nav>
+  </header>
+
+  <main>
+
+     <section id="bienvenue">
+       <h2>Bienvenue chez nous</h2>
+
+       <p>L'auberge de Popo est un petit coin douillet perdu au milieu des montagnes. Avec une ambiance familiale et chaleureuse, nous veillons au bien être de nos visiteurs. 
+        Notre auberge se situe dans environnement idéal pour se reposer tout en favorisant les activités proches de la nature, et la découvertes de nouveaux lieux.</p>
+
+       <h3>Nos points forts</h3>
+       <ul>
+         <li>Une ambiance calme</li>
+         <li>Un panorama à couper le souffle</li>
+         <li>Une cuisine maison de qualité</li>
+       </ul>
+     </section>
+
+     <section id="chambres">
+       <h2>Nos chambres</h2>
+       <div>
+        <img src="images/image1.jpg" height="250" alt="Auberge de Popo - Chambre 1">
+        <img src="images/image2.jpg" height="250" alt="Auberge de Popo - Chambre 2">
+        <img src="images/image3.jpg" height="250" alt="Auberge de Pop - Chambre 3">
+       </div>
+
+     </section>
+
+     <section id="services">
+        <h2>Nos services</h2>
+        <ul>
+            <li><strong>Wifi:</strong> Inclus</li>
+            <li><strong>Parking:</strong> Privé et sécurisé</li>
+            <li><strong>Petit déjeuner:</strong> Disponible sur demande</li>
+            <li><strong>Piscine:</strong> Accès libre</li>
+        </ul>
+
+     </section>
+
+     <section id="avis">
+        <h2>Avis des clients</h2>
+
+        <blockquote>
+            "Mon séjour a été une expérience inoubliable ! 
+            Dès notre arrivée, nous avons été accueillis chaleureusement par la famille qui gère l'auberge. 
+            L'atmosphère était conviviale et authentique."
+        </blockquote>
+
+        <blockquote>
+            "Les chambres sont confortables et décorées avec goût, offrant une vue imprenable sur les montagnes. 
+            Le petit déjeuner, préparé avec des ingrédients locaux, était un vrai régal. 
+            Nous avons particulièrement apprécié les confitures maison et le pain frais."
+        </blockquote>
+
+     </section>
+
+     <section id="contact">
+        <h2>Nous contacter</h2>
+
+        <form action="send_mail.php" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message"></textarea>
+
+            <button>Envoyer</button>
+
+        </form>
+
+     </section>
+
+  </main>
+
+<footer></footer>
+</body>
+
 </html>
