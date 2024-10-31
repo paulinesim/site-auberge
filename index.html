@@ -8,22 +8,25 @@
 <title>Location de Vacances - L'auberge de Popo</title>
 
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-     <h1> L'auberge de Popo</h1>
-
-     <nav>
-       <ul>
-         <li><a href="#bienvenue">Bienvenue chez nous</a></li>
-         <li><a href="#chambres">Nos chambres</a></li>
-         <li><a href="#services">Nos services</a></li>
-         <li><a href="#avis">Avis</a></li>
-         <li><a href="#contact">Nous contacter</a></li>
-       </ul>
-     </nav>
+     <h1>L'auberge de Popo</h1>
   </header>
+
+  <nav>
+    <ul>
+      <li><a class="menu" href="#bienvenue">Bienvenue chez nous</a></li>
+      <li><a class="menu" href="#chambres">Nos chambres</a></li>
+      <li><a class="menu" href="#services">Nos services</a></li>
+      <li><a class="menu" href="#avis">Avis de clients</a></li>
+      <li><a class="menu" href="#contact">Nous contacter</a></li>
+    </ul>
+  </nav>
 
   <main>
 
@@ -33,7 +36,7 @@
        <p>L'auberge de Popo est un petit coin douillet perdu au milieu des montagnes. Avec une ambiance familiale et chaleureuse, nous veillons au bien être de nos visiteurs. 
         Notre auberge se situe dans environnement idéal pour se reposer tout en favorisant les activités proches de la nature, et la découvertes de nouveaux lieux.</p>
 
-       <h3>Nos points forts</h3>
+       <h4>Nos points forts</h4>
        <ul>
          <li>Une ambiance calme</li>
          <li>Un panorama à couper le souffle</li>
@@ -42,7 +45,7 @@
      </section>
 
      <section id="chambres">
-       <h2>Nos chambres</h2>
+       <h3>Nos chambres</h3>
        <div>
         <img src="images/image1.jpg" height="250" alt="Auberge de Popo - Chambre 1">
         <img src="images/image2.jpg" height="250" alt="Auberge de Popo - Chambre 2">
@@ -63,19 +66,22 @@
      </section>
 
      <section id="avis">
-        <h2>Avis des clients</h2>
+        <h3>Avis de clients</h3>
 
-        <blockquote>
+        <div style="display:flex; margin:10px;">
+
+        <div id="blockquote">
             "Mon séjour a été une expérience inoubliable ! 
             Dès notre arrivée, nous avons été accueillis chaleureusement par la famille qui gère l'auberge. 
-            L'atmosphère était conviviale et authentique."
-        </blockquote>
+            L'atmosphère était conviviale et authentique.""
+        </div>
 
-        <blockquote>
+        <div id="blockquote">
             "Les chambres sont confortables et décorées avec goût, offrant une vue imprenable sur les montagnes. 
             Le petit déjeuner, préparé avec des ingrédients locaux, était un vrai régal. 
             Nous avons particulièrement apprécié les confitures maison et le pain frais."
-        </blockquote>
+        </div>
+        </div>
 
      </section>
 
