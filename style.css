@@ -1,32 +1,52 @@
-/* bonjour  */
+
 body {
-    background: rgba(254, 250, 224,0.45);
-    font-family: arial, sans-serif;
-    font-size:14px;
-    line-height:17px;
     margin: 0px;
+    padding: 0px;
+    background-color:rgba(188, 108, 37, 0.9);
 }
 
 header {
-    margin: 15px;
-    display: block;
-    text-align: center;
-    padding-bottom:50px;
-}
-
-nav ul {
-  margin-top:10px;
-  display:flex;
-  justify-content: space-evenly;
+  text-indent: 20px;
+  padding:15px;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: bold;
+  font-size: 100px; 
+  letter-spacing:1.5px;
+  text-transform: uppercase;
+  color: #BC6C25;
+  text-shadow: 2px 1px 1px rgba(63, 64, 63,0.2); 
+  background-image: url(images/montagne.jpg);
+  height: 180px;
+  background-size: cover;
+  background-position: 30% 45%;
   border-bottom: 5px solid #DDA15E;
 }
 
-li {
-  list-style-type: none;
+nav {
+  margin-top:-33px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 main {
-    margin:60px;
+    height: 100%;
+    margin:-32px 250px;
+    padding:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    line-height: 18px;
+    background-color: cornsilk;
+    border-left: 5px solid #DDA15E;
+    border-right: 5px solid #DDA15E;
+}
+
+.intro {
+  margin:55px;
+  color: #2a2a2a;
+  font-size: 25px;
+  line-height: 35px;
+  font-style: italic;
+  text-align: center;
 }
 
 .menu {
@@ -46,100 +66,150 @@ main {
     transition: 1s;
 }
 
-h1 {
-    font-family: "New Amsterdam", sans-serif;
-    font-weight: 700;
-    font-size: 95px; 
-    letter-spacing:1.5px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #BC6C25;
-    text-shadow: 2px 1px 1px rgba(63, 64, 63,0.2); 
-  }
+
+h2 {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 700;
+  font-size: 55px; 
+  letter-spacing:1.5px;
+  text-transform: uppercase;
+  color: #606C38;
+  text-shadow: 2px 1px 1px rgba(63, 64, 63,0.2); 
+  text-align:center;
+}
+
+h3 {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 700;
+  font-size: 25px; 
+  letter-spacing:1.5px;
+  text-transform: uppercase;
+  color:#fefefe;
+  background: #606C38;
+  padding:10px;
+  border-radius: 20px;
+  width: 250px;
+  text-align:center;
+}
 
 
-  h2 {
-    font-family: "New Amsterdam", sans-serif;
-    font-weight: 700;
-    font-size: 35px; 
-    letter-spacing:1.5px;
-    text-transform: uppercase;
-    text-indent: 25px;
-    color:#fefefe;
-    background: #606C38;
-    padding:20px;
-    width:350px;
-    border:2px solid rgb(254, 250, 224);
-    box-shadow: 3px 3px rgba(63, 64, 63,0.1); 
-    border-radius: 5px 30px 5px 30px;
-  }
+h4 {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 500;
+  font-size: 17px; 
+  letter-spacing:1px;
+  text-transform: uppercase;
+  color: #606C38;
+  border-bottom: 2px solid #606C38;
+  display:inline;
+}
 
-  h3 {
-    font-family: "New Amsterdam", sans-serif;
-    font-weight: 700;
-    font-size: 35px; 
-    letter-spacing:1.5px;
-    text-transform: uppercase;
-    text-indent: 25px;
-    color:#fefefe;
-    background: #606C38;
-    padding:20px;
-    width:350px;
-    border:2px solid rgb(254, 250, 224);
-    box-shadow: 3px 3px rgba(63, 64, 63,0.1); 
-    border-radius: 30px 5px 30px 5px;
-  }
+strong {
+  text-transform:uppercase;
+  font-size: 12px;
+  color:#283618;
+  font-weight:800;
+}
 
+#blockquote {
+  margin:15px;
+  padding:15px;
+  background: rgba(96, 108, 56,0.2);
+  box-shadow: 5px 5px rgba(63, 64, 63,0.1); 
+  border:2px solid #fefefe;
+  border-radius:10px;
+  width:350px;
+  text-align:justify;
+}
 
-  h4 {
-    font-family: "New Amsterdam", sans-serif;
-    font-weight: 500;
-    font-size: 20px; 
-    letter-spacing:1px;
-    text-transform: uppercase;
-    color: #606C38;
-    border-bottom: 4px double #606C38;
-    display:inline;
-  }
+input, textarea {
+  border: 4px double #606C38;
+}
 
-  strong {
-    text-transform:uppercase;
-    font-size: 12px;
-    color:#283618;
-    font-weight:800;
+button {
+  font-family: "New Amsterdam", Arial;
+  background: #BC6C25;
+  text-transform:uppercase;
+  font-weight:600;
+  color: #fefefe;
+  letter-spacing: 2px;
+  padding:10px;
+  border-radius:15px;
+  border: 1px solid #fefefe;
+}
+
+img {
+  height:200px;
+  margin:5px;
+  padding: 10px;
+  outline:4px solid #fefefe;
+  outline-offset: -10px;
+  background: linear-gradient(-40deg, rgba(96, 108, 56,0.6), rgba(96, 108, 56,0.3));
+  border-radius: 25px;
+}
+
+@media(max-width:768px)
+  {
+    header {
+      text-align: center;
+      padding:5px;
+      font-size: 50px; 
+      height: 100px;
+      background-position: 30% 25%; 
+    }
+
+    main {
+        height: 100%;
+        margin:-13px 0px;
+        padding:15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+        line-height: 14px;
+        border:0px;
+    }
+
+    nav {
+      margin-top: -15px;
+      width: 95vw;
+      align-content:space-between;
+    }
+
+    .menu {
+      font-size:13px;
+      padding:5px;
+      background: linear-gradient(to right, #DDA15E, #BC6C25);
+      outline:0px;
   }
 
   #blockquote {
-    margin:15px;
-    padding:15px;
+    margin:10px;
+    padding:10px;
     background: rgba(96, 108, 56,0.2);
     box-shadow: 5px 5px rgba(63, 64, 63,0.1); 
     border:2px solid #fefefe;
     border-radius:10px;
-    width:350px;
+    width:250px;
     text-align:justify;
   }
 
-  input, textarea {
-    border: 4px double #606C38;
+  h2 {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 700;
+    font-size: 25px; 
+    letter-spacing:1.5px;
+    text-transform: uppercase;
+    color: #606C38;
+    text-shadow: 2px 1px 1px rgba(63, 64, 63,0.2); 
+    text-align:center;
   }
 
-  button {
-    background: #DDA15E;
-    text-transform:uppercase;
-    font-weight:600;
-    color: #fefefe;
-    padding:10px;
-    border-radius:15px;
-    border: 1px solid #fefefe;
+  .intro {
+    margin:25px;
+    color: #2a2a2a;
+    font-size: 15px;
+    line-height: 17px;
+    font-style: italic;
+    text-align: center;
   }
 
-  img {
-    height:200px;
-    margin:5px;
-    padding: 10px;
-    outline:4px solid #fefefe;
-    outline-offset: -10px;
-    background: linear-gradient(-40deg, rgba(96, 108, 56,0.6), rgba(96, 108, 56,0.3));
-    border-radius:15px;
   }
